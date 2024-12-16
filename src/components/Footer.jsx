@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-scroll";
-
+import { FaSquareUpwork } from "react-icons/fa6";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -67,6 +66,14 @@ const Footer = () => {
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
               >
                 <FaLinkedin size={24} />
+              </a>
+              <a
+                href="https://www.upwork.com/freelancers/~017686f398a196b6d0?mp_source=share"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-primary transition-colors duration-300"
+              >
+                <FaSquareUpwork size={24} />
               </a>
               <a
                 href="mailto:sheikh.zain0110@example.com"

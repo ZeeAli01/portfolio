@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-
+import { FaSquareUpwork } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section
@@ -48,6 +48,14 @@ const Hero = () => {
               className="text-gray-600 hover:text-primary transition-colors duration-300"
             >
               <FaLinkedin size={30} />
+            </a>
+            <a
+              href="https://www.upwork.com/freelancers/~017686f398a196b6d0?mp_source=share"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-primary transition-colors duration-300"
+            >
+              <FaSquareUpwork size={30} />
             </a>
             <a
               href="mailto:sheikh.zain0110@gmail.com"

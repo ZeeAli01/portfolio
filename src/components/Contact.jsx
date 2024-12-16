@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { FaPhone, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-
+import { FaSquareUpwork } from "react-icons/fa6";
 const Contact = () => {
   const ref = useRef(null);
   const formRef = useRef();
@@ -70,6 +70,16 @@ const Contact = () => {
                   target="_blank"
                 >
                   github.com/ZeeAli01
+                </a>
+              </div>
+              <div className="flex items-center">
+                <FaSquareUpwork className="text-primary mr-4" />
+                <a
+                  href="https://www.upwork.com/freelancers/~017686f398a196b6d0?mp_source=share"
+                  className="hover:text-primary"
+                  target="_blank"
+                >
+                  upwork.com/freelancers/Zain-Ali
                 </a>
               </div>
               <div className="flex items-center">
