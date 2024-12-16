@@ -53,7 +53,7 @@ const Footer = () => {
             <h4 className="text-xl font-semibold mb-4">Connect With Me</h4>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/ZeeAli01"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
@@ -61,7 +61,7 @@ const Footer = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/zain-ali-1763bb247"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
@@ -69,7 +69,7 @@ const Footer = () => {
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:sheikh.zain0110@example.com"
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
               >
                 <FaEnvelope size={24} />
